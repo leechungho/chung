@@ -12,9 +12,10 @@ public class BasicApplication {
         SpringApplication.run(BasicApplication.class, args);
     }
 
-    @Override
     public void run(String... args) throws Exception{
         User user = new User();
-    }
 
+
+
+    }
 }
